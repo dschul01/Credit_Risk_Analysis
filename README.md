@@ -61,6 +61,6 @@ The models were developed to predict whether credit applicants should be categor
 
 ## Summary
 
-The results above show each machine learning model returned with similiar outcomes of extremely low precision scores.  Low precision scores indicate false positives, so in this case low risk consumers were predicted to be high risk.  Although the AdaBoost Classifier returned with the highest precision score, 6% of applicants would have been treated as high risk and looked at alternative options for their credit needs.  I would not recommend any of these models as I believe false positives should be closer to 1% in determining credit risk.
+The results above show each machine learning model returned with similiar outcomes of extremely low precision scores.  Low precision scores indicate false positives, so in this case low risk consumers were predicted to be high risk.  Although the AdaBoost Classifier returned with the highest precision score, 6% of applicants would have been treated as high risk and likely looked for alternative options to meet their credit needs.  I would not recommend any of these models as I believe false positives should be < 1% when determining credit risk.
 
 
