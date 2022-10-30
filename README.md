@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-Utilize Python and Scikit-learn library to build and evaluate machine learning models to predict credit risk.
+Utilize Python and the SciKit-learn library to build and evaluate machine learning models to predict credit risk.
 
 ## Purpose
 
@@ -16,6 +16,8 @@ The performance of the six machine learning models are explained below including
 * Naive Random Over-Sampling Results
 	- Scores: balanced accuracy score = 0.65; precision score = 0.01; recall score = 0.68
 	- Performance Overview:
+
+---------------------------------------------------------------------------------------------------------------------------------
 	 
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/SMOTE_Oversampling.png" width="600" height="250">
 
@@ -23,11 +25,15 @@ The performance of the six machine learning models are explained below including
 	- Scores: balanced accuracy score = 0.66; precision score = 0.01; recall score = 0.64
 	- Performance Overview:
 
+---------------------------------------------------------------------------------------------------------------------------------
+
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/Undersampling.png" width="600" height="250">
 
 * Cluster Centroids Under-Sampling Results
 	- Scores: balanced accuracy score = 0.54; precision score = 0.01; recall score = 0.69 
 	- Performance Overview:
+
+---------------------------------------------------------------------------------------------------------------------------------
 
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/Combination_Sampling.png" width="600" height="250">
 
