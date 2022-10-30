@@ -9,7 +9,7 @@ The purpose of this project is to utilize Python for building multiple machine l
 
 ## Results
 
-The models were developed to predict credit applicants categorized as high risk (positive cases) compared to low risk (negative cases).  The performance of the six machine learning models are explained below including screenshots of each model's output:
+The models were developed to predict whether credit applicants should be categorized as high risk (positive cases) compared to low risk (negative cases) depending on a number of features.  The performance of the six machine learning models are explained below including screenshots of each model's output:
 
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/Naive_Random_Oversampling.png" width="600" height="250">
 
