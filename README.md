@@ -9,36 +9,44 @@ The purpose of this project is to utilize Python for building multiple machine l
 
 ## Results
 
-The performance of the six machine learning models are explained including screenshots of each model's output below:
+The performance of the six machine learning models are explained below including screenshots of each model's output:
 
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/Naive_Random_Oversampling.png" width="600" height="250">
 
-* Naive Random Sampling
-	- balanced accuracy score
-	- precision score
-	- recall score
+* Naive Random Over-Sampling Results
+	- Scores: balanced accuracy score = 0.65; precision score = 0.01; recall score = 0.68
+	- Performance Overview:
 	 
-
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/SMOTE_Oversampling.png" width="600" height="250">
+
+* SMOTE Over-Sampling Results
+	- Scores: balanced accuracy score = 0.66; precision score = 0.01; recall score = 0.64
+	- Performance Overview:
 
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/Undersampling.png" width="600" height="250">
 
+* Cluster Centroids Under-Sampling Results
+	- Scores: balanced accuracy score = 0.54; precision score = 0.01; recall score = 0.69 
+	- Performance Overview:
+
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/Combination_Sampling.png" width="600" height="250">
+
+* SMOTEEN Combination-Sampling Results
+	- Scores: balanced accuracy score = 0.67; precision score = 0.01; recall score = 0.79
+	- Performance Overview:
 
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/Balanced_Random_Forest_Classifier.png" width="600" height="250">
 
+* Balanced Random Forest Classifier Results
+	- Scores: balanced accuracy score = 0.79; precision score = 0.03; recall score = 0.70
+	- Performance Overview:
+
 <img src="https://github.com/dschul01/Credit_Risk_Analysis/blob/main/Images/Easy_Ensemble_AdaBoost_Classifier.png" width="600" height="250">
+
+* Easy Ensemble AdaBoost Classifier Results
+	- Scores: balanced accuracy score = 0.93; precision score = 0.09; recall score = 0.92
+	- Performance Overview:
 
 
 ## Summary
 
-
-
-The purpose of this project is to utilize PySpark, AWS RDS, and PGAdmin to analyze Amazon reviews on a select group of products and determine if there are any biases by
- members of the paid Amazon Vine program.  This program is a service wherein manufacturers and publishers pay a small fee to Amazon and provide products to Vine members
- in return for a published review.
-
-One of fifty datasets containing specific product reviews is selected.  PySpark is used to run the dataset through the ETL (extract, transform, load) process connecting
- to an AWS RDS instance and load data into PGAdmin.  PySpark methods and functions are developed to analyze the dataset and determine bias levels by paid Vine members. 
-
-## Results
